@@ -19,6 +19,8 @@ Location of organism: [36 27],  Closest food target : [55 38]
 #define GET_ORDINATE scanf("%d", &current_location.y)
 
 #define FOOD_POINTS {{18, 76},{19, 66},{89, 57},{9, 71},{55, 38}}
+#define IS_NEARER_FOOD if(smallest_distance > current_distance)
+#define FIRST_POS 0
 
 typedef struct 
 {
