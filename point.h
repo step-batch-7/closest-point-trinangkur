@@ -12,6 +12,14 @@ Location of organism: [69 7],   Closest food target : [55 38]
 Location of organism: [10 94],  Closest food target : [18 76]
 Location of organism: [36 27],  Closest food target : [55 38]
 */
+
+#define ASK_ABSCISSA printf("Enter abscissa (X co-ordinate): ")
+#define ASK_ORDINATE printf("Enter ordinate (Y co-ordinate): ")
+#define GET_ABSCISSA scanf("%d", &current_location.x)
+#define GET_ORDINATE scanf("%d", &current_location.y)
+
+#define FOOD_POINTS {{18, 76},{19, 66},{89, 57},{9, 71},{55, 38}}
+
 typedef struct 
 {
   int x;
